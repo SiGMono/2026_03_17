@@ -3,7 +3,7 @@
 
 using namespace std;
 
-class Figura{
+class Figura{       //Klasa abstrakcyjna
     public:
     virtual int obliczPole() = 0;
     virtual int obliczObwod() = 0;
@@ -82,13 +82,14 @@ class Trojkat : public Figura{
 
 int main(int argc, char const *argv[])
 {
+    //Tworzenie obiektów klas
     Kwadrat *kwadrat1 = new Kwadrat(4);
     Kolo *kolo1 = new Kolo(3);
     Prostokat *prostokat1 = new Prostokat(3,4);
     Trojkat *trojkat1 = new Trojkat(2,3,4);
     Figura *user;
 
-    int decyzja;
+    int decyzja = -1;
 
     do{
         cout<<"     <---------->     "<<endl;
@@ -99,6 +100,8 @@ int main(int argc, char const *argv[])
         cout<<"5 - pole figury"<<endl;
         cout<<"6 - obwod figury"<<endl;
         cout<<"0 - exit"<<endl;
+
+        cin>>decyzja;
 
         switch(decyzja){
             case 1:
@@ -130,6 +133,6 @@ int main(int argc, char const *argv[])
 
     }while(decyzja != 0);
 
-    delete(kwadrat1, kolo1);
+    delete(kwadrat1, kolo1, prostokat1, trojkat1);
     return 0;
 }

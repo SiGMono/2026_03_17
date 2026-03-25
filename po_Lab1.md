@@ -17,12 +17,12 @@
 
 | Pole | Wartość |
 |---|---|
-| Imię i nazwisko | Szymon Zeller |
-| Numer albumu | 10149 |
-| Kierunek / specjalność | Informatyka |
-| Rok/Semestr | I |
+| Imię i nazwisko | ........................................................ |
+| Numer albumu | ........................................................ |
+| Kierunek / specjalność |Informatyka / informatyka w przedsiębiorstwie. |
+| Rok/Semestr | I/II |
 | Grupa laboratoryjna | grupa 1 |
-| Rok akademicki |  2025/2026 |
+| Rok akademicki |  2025/2026|
 | Prowadzący | mgr inż. Artur Pelo |
 
 ## <img src="https://img.icons8.com/color/48/info--v1.png" alt="Piktogram informacje o zadaniu" width="24" /> Informacje o zadaniu
