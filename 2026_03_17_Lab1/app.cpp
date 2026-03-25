@@ -64,7 +64,7 @@ class Trojkat : public Figura{
         int a,b,c;
     public:
         int obliczPole() override{
-            int p = ((a+b+c)/2);
+            int p = (a+b+c)/2;
             return sqrt(p*(p-a)*(p-b)*(p-c));
         }
         int obliczObwod() override{
@@ -86,7 +86,7 @@ int main(int argc, char const *argv[])
     Kwadrat *kwadrat1 = new Kwadrat(4);
     Kolo *kolo1 = new Kolo(3);
     Prostokat *prostokat1 = new Prostokat(3,4);
-    Trojkat *trojkat1 = new Trojkat(2,3,4);
+    Trojkat *trojkat1 = new Trojkat(5,5,4);
     Figura *user;
 
     int decyzja = -1;
